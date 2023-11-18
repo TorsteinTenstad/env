@@ -14,6 +14,7 @@
   },
   "cSpell.userWords": [
     "cassert",
+    "clangd",
     "cmpgt",
     "cmplt",
     "consts",
@@ -27,6 +28,7 @@
     "Gamepads",
     "hasher",
     "heapless",
+    "hexeditor",
     "httplib",
     "iknowwhatimdoingtrustme",
     "inventas",
@@ -50,6 +52,7 @@
     "SFML",
     "Undoable",
     "unfound",
+    "unstage",
     "upperbound"
   ],
   "[css]": {

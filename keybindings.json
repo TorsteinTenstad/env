@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "ctrl+enter",
@@ -103,10 +102,54 @@
   },
   {
     "key": "f",
-    "command": "workbench.files.action.createFileFromExplorer"
+    "command": "workbench.files.action.createFileFromExplorer",
+    "when": "filesExplorerFocus && !inputFocus"
   },
   {
     "key": "d",
-    "command": "workbench.files.action.createFolderFromExplorer"
+    "command": "workbench.files.action.createFolderFromExplorer",
+    "when": "filesExplorerFocus && !inputFocus"
   },
+  {
+    "key": "ctrl+alt+up",
+    "command": "git.stageAll",
+    "when": "workbench.scm.active && !editorFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "git.unstageAll",
+    "when": "workbench.scm.active && !editorFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "git.stage",
+        "workbench.view.scm",
+      ]
+    },
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "git.unstage",
+        "workbench.view.scm",
+      ]
+    },
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.view.scm",
+    "when": "workbench.scm.active"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm",
+    "when": "workbench.scm.active"
+  }
 ]
