@@ -1,0 +1,72 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "hexeditor.columnWidth": 32,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "clangd.path": "c:\\Users\\Torstein_Lenovo\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\15.0.6\\clangd_15.0.6\\bin\\clangd.exe",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "cSpell.userWords": [
+    "cassert",
+    "cmpgt",
+    "cmplt",
+    "consts",
+    "cooldown",
+    "deadzone",
+    "deno",
+    "despawn",
+    "fract",
+    "Fullscreen",
+    "gamepad",
+    "Gamepads",
+    "hasher",
+    "heapless",
+    "httplib",
+    "iknowwhatimdoingtrustme",
+    "inventas",
+    "Leaderboard",
+    "Leaderboards",
+    "LIGHTGRAY",
+    "linvel",
+    "livezone",
+    "lowerbound",
+    "macroquad",
+    "matplotlib",
+    "monof",
+    "nonblocking",
+    "Numpad",
+    "overcurrent",
+    "overvoltage",
+    "pyvisa",
+    "readback",
+    "recip",
+    "rustfmt",
+    "SFML",
+    "Undoable",
+    "unfound",
+    "upperbound"
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "cSpell.ignoreWords": ["pyplot"],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineNumbers": "relative",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
