@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
   {
     "key": "ctrl+enter",
@@ -103,10 +102,12 @@
   },
   {
     "key": "f",
-    "command": "workbench.files.action.createFileFromExplorer"
+    "command": "workbench.files.action.createFileFromExplorer",
+    "when": "filesExplorerFocus && !inputFocus"
   },
   {
     "key": "d",
-    "command": "workbench.files.action.createFolderFromExplorer"
+    "command": "workbench.files.action.createFolderFromExplorer",
+    "when": "filesExplorerFocus && !inputFocus"
   },
 ]
